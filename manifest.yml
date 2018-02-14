@@ -1,0 +1,10 @@
+---
+applications:
+- instances: 1
+  timeout: 180
+  name: demomicrotest
+  buildpack: java_buildpack
+  path: ./target/demomicrotest-1.0-SNAPSHOT.jar
+  memory: 256M
+  domain: au-syd.mybluemix.net
+  host: demomicrotest
